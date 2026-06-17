@@ -4,35 +4,35 @@ let musicStarted = false;
 
 const questions = [
 {
-image: "images/q1.png",
+image: "q1.png",
 scores: ["dojin", "ion", "kangho", "woorim", "hansol"]
 },
 {
-image: "images/q2.png",
+image: "q2.png",
 scores: ["woorim", "kangho", "hansol", "dojin", "ion"]
 },
 {
-image: "images/q3.png",
+image: "q3.png",
 scores: ["hansol", "dojin", "ion", "woorim", "kangho"]
 },
 {
-image: "images/q4.png",
+image: "q4.png",
 scores: ["ion", "woorim", "kangho", "hansol", "dojin"]
 },
 {
-image: "images/q5.png",
+image: "q5.png",
 scores: ["kangho", "hansol", "dojin", "ion", "woorim"]
 },
 {
-image: "images/q6.png",
+image: "q6.png",
 scores: ["dojin", "woorim", "hansol", "kangho", "ion"]
 },
 {
-image: "images/q7.png",
+image: "q7.png",
 scores: ["ion", "dojin", "woorim", "kangho", "hansol"]
 },
 {
-image: "images/q8.png",
+image: "q8.png",
 scores: ["hansol", "kangho", "ion", "dojin", "woorim"]
 }
 ];
@@ -102,7 +102,7 @@ resultMember = member;
 }
 
 document.getElementById("app").innerHTML = ` <div style="position:relative; width:100%;"> <img
-     src="images/${resultMember}.png"
+     src="${resultMember}.png"
      alt="결과 이미지"
      style="width:100%; display:block;"
    >
@@ -146,7 +146,7 @@ function renderQuestion() {
 
 if (currentQuestion === -1) {
 document.getElementById("app").innerHTML = ` <div style="position:relative; width:100%;"> <img
-       src="images/home.png"
+       src="home.png"
        alt="홈"
        style="width:100%; display:block;"
      >
