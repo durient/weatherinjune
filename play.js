@@ -1,7 +1,7 @@
 const piecesDiv = document.getElementById("pieces");
 
 const image = new Image();
-image.src = "images/puzzle.png";
+image.src = "puzzle.png";
 
 let completedPieces = 0;
 
