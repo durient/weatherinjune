@@ -1,0 +1,61 @@
+#puzzleCanvas{
+    width:580px;
+    height:326px;
+    border:3px solid red;
+    margin:20px auto;
+    display:block;
+}
+
+#hintBtn{
+    display:block;
+    margin:20px auto;
+    padding:15px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:12px;
+    background:#4a6cf7;
+    color:white;
+    cursor:pointer;
+}
+
+#pieces{
+    width:650px;
+    margin:30px auto;
+
+    display:grid;
+    grid-template-columns:repeat(10,58px);
+    gap:2px;
+}
+
+.piece{
+    border:1px solid #888;
+    box-sizing:border-box;
+}
+
+#pieces{
+    width:700px;
+    margin:30px auto;
+
+    display:flex;
+    flex-wrap:wrap;
+
+    gap:4px;
+    justify-content:center;
+}
+
+.piece{
+    border:2px solid #444;
+    cursor:pointer;
+}
+
+#board{
+    width:580px;
+    height:326px;
+    margin:20px auto;
+    border:3px dashed #999;
+}
+
+#pieces{
+    width:700px;
+    margin:30px auto;
+}
